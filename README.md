@@ -8,8 +8,13 @@ Aplicações na primeira aula:
 - Padrão REST para API Web
 
 *Estruturação de projetos Spring*, 
+
 *Entidades e ORM*, 
+
 *Database seeding*, 
+
 *Padrão camadas*, 
+
 *Controller, service, repository*, 
+
 *Padrão DTO*
