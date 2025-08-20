@@ -7,14 +7,14 @@ Aplicações na primeira aula:
 - Cliente/Servidor,HTTP, JSON
 - Padrão REST para API Web
 
-*Estruturação de projetos Spring*, 
+*Estruturação de projetos Spring*
 
-*Entidades e ORM*, 
+*Entidades e ORM*
 
-*Database seeding*, 
+*Database seeding*
 
-*Padrão camadas*, 
+*Padrão camadas*
 
-*Controller, service, repository*, 
+*Controller, service, repository*
 
 *Padrão DTO*
