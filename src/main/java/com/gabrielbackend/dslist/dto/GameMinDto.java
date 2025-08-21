@@ -1,6 +1,8 @@
 package com.gabrielbackend.dslist.dto;
 
 import com.gabrielbackend.dslist.entities.Game;
+import com.gabrielbackend.dslist.projections.GameMinProjection;
+import org.springframework.beans.BeanUtils;
 
 public class GameMinDto {
 
@@ -18,6 +20,14 @@ public class GameMinDto {
     }
 
     public GameMinDto(Game entity) {
+        id = entity.getId();
+        title = entity.getTitle();
+        year = entity.getYear();
+        imgUrl = entity.getImgUrl();
+        shortDescription = entity.getShortDescription();
+    }
+
+    public GameMinDto (GameMinProjection entity){
         id = entity.getId();
         title = entity.getTitle();
         year = entity.getYear();
