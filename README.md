@@ -18,3 +18,15 @@ Aplicações na primeira aula:
 *Controller, service, repository*
 
 *Padrão DTO*
+
+
+Aplicações na segunda aula:
+
+*Relacionamentos N-N*
+
+*Classe de assossiação, embedded id*
+
+*Consultas SQL no Spring Data JPA*
+
+*Projections*
+
