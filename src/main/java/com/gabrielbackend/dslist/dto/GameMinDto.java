@@ -30,7 +30,7 @@ public class GameMinDto {
     public GameMinDto (GameMinProjection entity){
         id = entity.getId();
         title = entity.getTitle();
-        year = entity.getYear();
+        year = entity.getGameYear();
         imgUrl = entity.getImgUrl();
         shortDescription = entity.getShortDescription();
     }
@@ -43,7 +43,7 @@ public class GameMinDto {
         return title;
     }
 
-    public Integer getYear() {
+    public Integer getGameYear() {
         return year;
     }
 
