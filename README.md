@@ -30,3 +30,15 @@ Aplicações na segunda aula:
 
 *Projections*
 
+
+Aplicações terceira aula: 
+
+*Ambiente local com docker compose*
+
+*Processo de homologação local*
+
+*Processo de debloy com CI/CD*
+
+*Configuração de CORS*
+
+
