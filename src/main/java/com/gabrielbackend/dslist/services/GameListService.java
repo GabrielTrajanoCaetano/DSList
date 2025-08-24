@@ -26,13 +26,20 @@ public class GameListService {
         return lists.stream().map(x-> new GameListDto(x)).toList();
 
     }
-
+    @Transactional
     public void move(Long listId, int sourceIndex, int destinationIndex){
 
         List<GameMinProjection> list = gameRepository.searchByList(listId);
 
         GameMinProjection game = list.remove(sourceIndex);
         list.add(destinationIndex, game);
+
+        int min = sourceIndex < destinationIndex ? sourceIndex : destinationIndex;
+        int max = sourceIndex < destinationIndex ? destinationIndex : sourceIndex;
+
+        for (int i = min ; i <= max ; i++){
+            gameListRepository.updateBelongingPosition(listId, list.get(i).getId(), i);
+        }
 
 
     }
